@@ -49,3 +49,21 @@ This function should redirect the user to a page where they can select their nam
 #### Queue Claim
 
 This function would allow ResLife staff to claim the next Resident in line. It should be called when a staff member clicks on a tile in the queue.
+
+
+### Databases
+
+#### Accounts (managed with the httr R package)
+
+ - Username (hopefully matching the user's GC Username)
+ - Password (perhaps stored as a hash if you can figure that out)
+ - Name
+ - Access Tier
+   - 3: Residents
+   - 2: ResLife staff
+   - 1: ResLife Pro-Stuff
+ - Dorm
+ 
+
+
+
